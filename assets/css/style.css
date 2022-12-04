@@ -6769,24 +6769,13 @@ a:active {
 }
 
 .frontpage-banner-section.frontpage-banner-style-three {
-  padding-top: 200px;
-  padding-bottom: 0px;
+  padding-top: 90px;
+  padding-bottom: 30px;
   position: relative;
-  overflow: hidden;
+ 
 }
 
-.frontpage-banner-section.frontpage-banner-style-three::after {
-  width: 960px;
-  height: 480px;
-  border-radius: 50px;
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: -5%;
-  background-color: rgba(56, 249, 215, 0.3);
-  margin-top: -250px;
-  z-index: -1;
-}
+
 
 @media only screen and (max-width: 1366px) {
   .frontpage-banner-section.frontpage-banner-style-three {
@@ -6831,9 +6820,9 @@ a:active {
 }
 
 .frontpage-banner-section.frontpage-banner-style-three>.element-group>.element.two {
-  top: 150px;
-  left: -200px;
-  width: 350px;
+  top: -150px;
+  left: -120px;
+  width: 400px;
   height: 350px;
   border-radius: 100%;
   background-color: #6e45e2;
